@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Filho direto do BODY ">" */
+body > header {
+    background-color: #2f3640;
+    padding: 16px 0;
+    color: aliceblue;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li a {
+    color: #f5f6fa;
+    text-decoration: none;
+    margin-left: 16px;
+}
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+/* Trazendo por classe */
+.container {
+    width: 1366px;
+    margin: 0 auto 0 auto;
+
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    height: 180px;
+}
+
+.articles article {
+   /* width: 30% ; */
+    width: 100%;
+}
+
+section {
+    padding: 16px 0;
+
+}
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+/* PUXANDO TODOS OS LINKS COM O "a" */
+.articles article a {
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+
+.articles article p,
+.articles article a {
+    font-family:  Arial, Helvetica, sans-serif;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+/* BACKGORUND ESPORTES */
+#esporte {
+    background-color: rgba(0, 255, 0, 0.1);
+}
+
+/* BACKGROUND LINK ESPORTE */
+
+#esporte .articles article a {
+    background-color: #009432;
+}
+
+/* BACKGROUND ECONOMIA */
+#economia {
+    background-color: #f8f59f;
+
+}
+
+/* BACKGROUND LINK ECONOMIA */
+#economia .articles article a {
+    background-color: #ff9f1a;
+}
+
+/* BACKGROUND ENTRETERIMENTO */
+#entreterimento {
+    background-color: rgba(255, 102, 0, 0.651)
+}
+
+/* BACKGROUND LINK ENTRETERIMENTO */
+#entreterimento .articles article a {
+    background-color: #04439c;
+}
+
+/* BACKGROUND TECNOLOGIA */
+#tecnologia {
+    background-color: rgba(255, 0, 149, 0.651)
+}
+
+/* BACKGROUND LINK TECNOLOGIA */
+#tecnologia .articles article a {
+    background-color: #d8f006;
+}
